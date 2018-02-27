@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	min-height: 30px;
+	background-color: #333;
+	padding: 20px 40px;
+}
+
+h1 {
+	padding-bottom: 20px;
+}
+
+main {
+	padding: 40px;
+}
+
+.content {
+	width: 46%;
+	float: left;
+	border: 1px solid #eee;
+}
+
+.right {
+	float: right;
+}
+
+@media only screen and (max-width: 800px) {
+	.content {
+		width: 90%;
+	}
+}
+
+footer {
+	clear: both;
+	margin-top: 20px;
+	min-height: 20px;
+	padding: 20px;
+	text-align: center;
+	background-color: #333;
+	color: #FFF;
+}
